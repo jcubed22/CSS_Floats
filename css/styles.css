@@ -1,0 +1,73 @@
+body {
+  background: #f3f1ed;
+}
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.container {
+  margin: auto;
+  width: 90%;
+}
+.header {
+  font-family: 'Permanent Marker', cursive;
+}
+.header h1 {
+  position: fixed;
+  margin: 1rem 0;
+  float: left;
+}
+.content {
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.1em;
+}
+.header ul {
+  margin: 1rem 0;
+  padding: 9.5px 0;
+  list-style: none;
+  float: right;
+}
+.header li {
+  font-size: 1.2em;
+  margin-right: 2em;
+  margin-bottom: 5%;
+  float: left;
+}
+.header li:hover {
+  cursor: pointer;
+  color: blue;
+}
+.clear {
+  clear: both
+}
+.about {
+  width: 70%;
+  float: left;
+}
+.links {
+  width: 30%;
+  float: left;
+}
+.links > ul {
+  margin-top: 16px;
+  list-style: none;
+  float: left;
+  padding-left: 20%;
+}
+.links li {
+  margin-right: 3em;
+  padding-bottom: .4em;
+}
+img {
+  width: 33%;
+  float: left;
+  margin-bottom: 10px;
+}
+
+/* Media Querie */
+@media
